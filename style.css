@@ -1,0 +1,143 @@
+/* /////////////////////////////////////////////////////////////////////////////////// */
+/* Navbar */
+.navbar-brand{
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+}
+
+
+/* Enda Navbar */
+
+/* Utility */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url(img/video-Ed.jpg);
+    background-size: cover;
+    height: 640px;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+.jumbotron .display-4, .jumbotron .display-5{
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    font-weight: 100;
+}
+
+.jumbotron .display-4 {
+    margin-top: 150px;  
+    font-size: 40px;
+}
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+.jumbotron a{
+    margin-top: 50px;
+}
+
+/* info panel //////////////////////////////////////////////////// */
+.info-panel{
+    background-color: rgb(255, 255, 255);
+    /* height: 100px; */
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -90px;
+    padding: 30px;
+
+}
+.info-panel img{
+    width: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}   
+.info-panel h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.info-panel p {
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    margin-top: -5px;
+}
+.sample {
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.sample .col-6{
+    margin-left: 10px;
+}
+.sample iframe{
+    border-radius: 10px;
+}
+.sample h3{
+    font-size: 45px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.sample span {
+    font-weight: 500;
+}
+.sample p {
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+    font-weight: 100;
+    margin: 15px 0;
+}
+/* tettimoni */
+.testimoni{
+    margin-top: 80px;
+    text-align: center;
+}
+.testimoni h5{
+    font-weight: 200;
+    font-style: italic;
+    font-size: 25px;
+}
+/* ////////////////////////////////////////// */
+/* DESKTOP VERTION */
+@media (min-width: 992px) { 
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+        
+    }
+
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 2px solid rgb(255, 255, 255);
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron{
+        margin-top: -75px;
+    }
+    .jumbotron .display-4{
+        font-size: 62px;
+    }
+    .sample {
+        text-align: left;
+        
+    }
+}  
+/* ////////////////////////////////////////////////////////////////// */
+
+
